@@ -39,3 +39,61 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+
+.ngt-header-section{
+    background: rgba(2, 29, 79, 0.9);
+    letter-spacing: 5px;
+}
+
+.ngt-header-title {
+    font-family: 'MechanismoRegular', serif;
+    color: white;
+    font-size: 45px;
+    text-shadow: 2px 0 2px rgba(0, 234, 255, 1), -2px 0 2px rgba(0, 234, 255, 1), 0 1px 2px rgba(0, 234, 255, 1), 0 -1px 2px rgba(0, 234, 255, 1);
+}
+
+.ngt-header-section-outer {
+    border-image: url('../images/glow/nav.png') 105;
+    border-style: solid;
+    border-width: 0 0 60px 0;
+}
+
+.ngt-demo{
+    background-size: cover;
+    opacity: 0.9;
+    background: url("../images/bg/bg.png") no-repeat fixed;
+}
+
+.ngt-nav-title{
+    font-family: 'OrbitronBlack', sans-serif;
+    color: white;
+    font-size: 22px;
+}
+
+.ngt-nav-outer{
+    border-image: url('../images/bg/border.png') 68;
+    border-style: solid;
+    border-width: 60px 40px 50px 60px;
+}
+
+.ngt-nav-inner{
+    background: rgba(2, 24, 85, 0.75);
+}
+
+ul.ngt-nav-list{
+    font-family: 'JuraBold', sans-serif;
+    color: white;
+    list-style: none;
+    padding-left: unset;
+    margin-bottom: unset;
+    font-size: 18px;
+}
+
+.ngt-demo-outer{
+    background: url("../images/glow/without-glow.png") no-repeat;
+    background-size: contain;
+    height: 190px;
+    width: 320px;
+    padding: 0.75em 2em;
+}
+
