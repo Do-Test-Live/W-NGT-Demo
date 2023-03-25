@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'AldotheApache';
+    src: url('../fonts/AldotheApache.ttf');
+}
+
+@font-face {
+    font-family: 'BomBerescorthalf';
+    src: url('../fonts/BomBerescorthalf.ttf');
+}
+
+@font-face {
+    font-family: 'JuraBold';
+    src: url('../fonts/JuraBold.ttf');
+}
+
+@font-face {
+    font-family: 'MechanismoRegular';
+    src: url('../fonts/MechanismoRegular.otf');
+}
+
+@font-face {
+    font-family: 'OrbitronBlack';
+    src: url('../fonts/OrbitronBlack.ttf');
+}
+
+@font-face {
+    font-family: 'OrbitronBold';
+    src: url('../fonts/OrbitronBold.ttf');
+}
+
+@font-face {
+    font-family: 'TheAmbrosiaSociety';
+    src: url('../fonts/TheAmbrosiaSociety.otf');
+}
+
+body {
+    background-image: url("../images/bg/background.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
