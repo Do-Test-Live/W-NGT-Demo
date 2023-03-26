@@ -83,13 +83,17 @@ body {
 }
 
 .ngt-nav-outer{
-    border-image: url('../images/bg/border.png') 68;
+    border-image: url('../images/bg/border.png') 65;
     border-style: solid;
     border-width: 60px 40px 50px 60px;
 }
 
 .ngt-nav-inner{
     background: rgba(2, 24, 85, 0.75);
+}
+
+ul.ngt-nav-list{
+    margin-bottom: unset;
 }
 
 ul.ngt-nav-list li{
