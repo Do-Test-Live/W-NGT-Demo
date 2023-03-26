@@ -40,12 +40,24 @@ body {
     background-attachment: fixed;
 }
 
+.ngt-logo {
+    width: 120px;
+}
+
 .ngt-header-section{
     background: rgba(2, 29, 79, 0.9);
     letter-spacing: 5px;
 }
 
 .ngt-header-title {
+    padding-right: 3.25em;
+    font-family: 'MechanismoRegular', serif;
+    color: white;
+    font-size: 45px;
+    text-shadow: 2px 0 2px rgba(0, 234, 255, 1), -2px 0 2px rgba(0, 234, 255, 1), 0 1px 2px rgba(0, 234, 255, 1), 0 -1px 2px rgba(0, 234, 255, 1);
+}
+
+.ngt-header-title-2 {
     font-family: 'MechanismoRegular', serif;
     color: white;
     font-size: 45px;
@@ -80,13 +92,17 @@ body {
     background: rgba(2, 24, 85, 0.75);
 }
 
-ul.ngt-nav-list{
-    font-family: 'JuraBold', sans-serif;
-    color: white;
+ul.ngt-nav-list li{
     list-style: none;
     padding-left: unset;
     margin-bottom: unset;
+}
+
+ul.ngt-nav-list li a{
+    font-family: 'JuraBold', sans-serif;
+    color: white;
     font-size: 18px;
+    text-decoration: none;
 }
 
 .ngt-demo-outer{
@@ -105,3 +121,70 @@ ul.ngt-nav-list{
     text-shadow: 2px 0 2px rgba(0, 234, 255, 1), -2px 0 2px rgba(0, 234, 255, 1), 0 1px 2px rgba(0, 234, 255, 1), 0 -1px 2px rgba(0, 234, 255, 1);
 }
 
+ul.ngt-nav-list li {
+    position: relative;
+}
+
+ul.ngt-nav-list li.active span {
+    background-color: #1a73e8 !important;
+}
+
+ul.ngt-nav-list li.active a{
+    color: #00EAFF;
+}
+
+ul.ngt-nav-list li.active span {
+    color: #000 !important;
+    background-color: #00EAFF !important;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .1);
+}
+
+ul.ngt-nav-list li span {
+    position: absolute;
+    top: 1px;
+    left: auto;
+    right: 0;
+    font-size: 11px;
+    width: 22px;
+    height: 22px;
+    line-height: 22px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #021d4fe6;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.ngt-btn {
+    font-family: 'JuraBold', serif;
+    border-radius: 25px;
+    border: none;
+    font-weight: 700;
+    font-size: 19px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background: url("../images/button/btn.png") no-repeat;
+    background-size: cover;
+    color: black;
+}
+
+.ngt-btn:hover {
+    background: url("../images/button/btn-hover.png") no-repeat;
+    background-size: cover;
+    color: black;
+}
+
+.ngt-footer{
+    font-family: 'JuraBold', serif;
+}
+
+@media only screen and (max-width: 550px) {
+    .ngt-logo{
+        display: none;
+    }
+
+    .ngt-header-title {
+        padding-right: unset;
+        font-size: 35px;
+    }
+}
