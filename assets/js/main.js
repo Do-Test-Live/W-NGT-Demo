@@ -29,7 +29,7 @@ function loadMultipages(){
     $("#multiPage").load(pageName);
     multiPageStart+=1;
     if(multiPageStart===3){
-        document.getElementById("multiPagebtn").disabled = true;
+        $('#multiPagebtn').hide();
     }
 }
 
@@ -38,7 +38,7 @@ function loadOnepages(){
     $("#onePage").load(pageName);
     onePageStart+=1;
     if(onePageStart===6){
-        document.getElementById("onePagebtn").disabled = true;
+        $('#onePagebtn').hide();
     }
 }
 
