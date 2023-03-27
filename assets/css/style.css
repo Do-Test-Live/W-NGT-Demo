@@ -115,6 +115,7 @@ ul.ngt-nav-list li a{
     height: 190px;
     width: 320px;
     padding: 0.75em 2em;
+    margin: auto;
 }
 
 .ngt-demo-outer img{
