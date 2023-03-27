@@ -37,7 +37,7 @@ function loadOnepages(){
     let pageName='onepage-'+onePageStart+'.html';
     $("#onePage").load(pageName);
     onePageStart+=1;
-    if(onePageStart===6){
+    if(onePageStart===5){
         $('#onePagebtn').hide();
     }
 }
