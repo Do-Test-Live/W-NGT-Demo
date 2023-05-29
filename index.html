@@ -8,7 +8,7 @@
     <meta content="NGT Demo" name="author">
 
     <meta content="NGT Demo" property="og:title"/>
-    <meta content="http://demo.ngt.hk/assets/images/desktop/background.png" property="og:image"/>
+    <meta content="https://demo.ngt.hk/assets/images/desktop/background.png" property="og:image"/>
     <meta content="image/png" property="og:image:type"/>
     <meta content="600" property="og:image:width"/>
     <meta content="400" property="og:image:height"/>
@@ -23,6 +23,12 @@
     <link href="assets/vendor/Bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
     <link href="assets/vendor/FontAwesome/css/all.min.css" rel="stylesheet"/>
     <link href="assets/css/style.css" rel="stylesheet"/>
+
+    <script>
+        if (location.protocol !== 'https:') {
+            location.replace(`https:${location.href.substring(location.protocol.length)}`);
+        }
+    </script>
 </head>
 <body>
 
@@ -30,8 +36,8 @@
     <div class="ngt-header-section pt-2">
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
-                <a class="navbar-brand" href="index.html"><img alt="" class="img-fluid ngt-logo"
-                                                      src="assets/images/logo/NGT-logo.png"/></a>
+                <a class="navbar-brand" href="https://ngt-tech.io/home-zh"><img alt="" class="img-fluid ngt-logo"
+                                                      src="assets/images/logo/ngt.png"/></a>
                 <h1 class="ngt-header-title m-auto text-center">
                     NGT DEMOS
                 </h1>
@@ -43,7 +49,7 @@
 <section class="ngt-demo">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-lg-3">
+            <div class="col-lg-3 pt-lg-0 pt-4">
                 <div class="ngt-nav-outer">
                     <div class="ngt-nav-inner">
                         <p class="ngt-nav-title ps-2">
@@ -165,14 +171,13 @@
             </div>
             <div class="col-lg-9">
                 <div class="row mt-3">
-                    <div class="col-lg-4 mb-4 all business listings d-flex justify-content-center align-items-center">
+                    <div class="col-lg-4 mb-4 all landing creative food d-flex justify-content-center align-items-center">
                         <div>
-                            <a href="https://ngttechhk.github.io/demo/demo-real-estate.html" target="_blank"
-                               class="text-decoration-none">
+                            <a href="https://ngttechhk.github.io/demo/demo-burger.html" target="_blank" class="text-decoration-none">
                                 <div class="ngt-demo-outer">
-                                    <img alt="" class="img-fluid" src="assets/images/intro/niche/new/2.jpg"/>
+                                    <img alt="" class="img-fluid" src="assets/images/intro/niche/new/26.jpg"/>
                                 </div>
-                                <h4 class="text-center mt-2 ngt-demo-title">REAL ESTATE</h4>
+                                <h4 class="text-center mt-2 ngt-demo-title">BURGER</h4>
                             </a>
                         </div>
                     </div>
@@ -211,7 +216,7 @@
                     </div>
                     <div class="col-lg-4 mb-4 all health-beauty d-flex justify-content-center align-items-center">
                         <div>
-                            <a href="https://ngttechhk.github.io/demo/https://ngttechhk.github.io/demo/demo-medical.html"
+                            <a href="https://ngttechhk.github.io/demo/demo-medical.html"
                                target="_blank" class="text-decoration-none">
                                 <div class="ngt-demo-outer">
                                     <img alt="" class="img-fluid" src="assets/images/intro/niche/new/6.jpg"/>
@@ -222,7 +227,7 @@
                     </div>
                     <div class="col-lg-4 mb-4 all landing clean d-flex justify-content-center align-items-center">
                         <div>
-                            <a href="https://ngttechhk.github.io/demo/https://ngttechhk.github.io/demo/demo-landing.html"
+                            <a href="https://ngttechhk.github.io/demo/demo-landing.html"
                                target="_blank" class="text-decoration-none">
                                 <div class="ngt-demo-outer">
                                     <img alt="" class="img-fluid" src="assets/images/intro/niche/new/7.jpg"/>
@@ -233,7 +238,7 @@
                     </div>
                     <div class="col-lg-4 mb-4 all business d-flex justify-content-center align-items-center">
                         <div>
-                            <a href="https://ngttechhk.github.io/demo/https://ngttechhk.github.io/demo/demo-law-firm.html"
+                            <a href="https://ngttechhk.github.io/demo/demo-law-firm.html"
                                target="_blank" class="text-decoration-none">
                                 <div class="ngt-demo-outer">
                                     <img alt="" class="img-fluid" src="assets/images/intro/niche/new/8.jpg"/>
@@ -244,7 +249,7 @@
                     </div>
                     <div class="col-lg-4 mb-4 all landing creative d-flex justify-content-center align-items-center">
                         <div>
-                            <a href="https://ngttechhk.github.io/demo/https://ngttechhk.github.io/demo/demo-kindergarten.html"
+                            <a href="https://ngttechhk.github.io/demo/demo-kindergarten.html"
                                target="_blank" class="text-decoration-none">
                                 <div class="ngt-demo-outer">
                                     <img alt="" class="img-fluid" src="assets/images/intro/niche/new/9.jpg"/>
@@ -428,13 +433,14 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col-lg-4 mb-4 all landing creative food d-flex justify-content-center align-items-center">
+                    <div class="col-lg-4 mb-4 all business listings d-flex justify-content-center align-items-center">
                         <div>
-                            <a href="https://ngttechhk.github.io/demo/demo-burger.html" target="_blank" class="text-decoration-none">
+                            <a href="https://ngttechhk.github.io/demo/demo-real-estate.html" target="_blank"
+                               class="text-decoration-none">
                                 <div class="ngt-demo-outer">
-                                    <img alt="" class="img-fluid" src="assets/images/intro/niche/new/26.jpg"/>
+                                    <img alt="" class="img-fluid" src="assets/images/intro/niche/new/2.jpg"/>
                                 </div>
-                                <h4 class="text-center mt-2 ngt-demo-title">BURGER</h4>
+                                <h4 class="text-center mt-2 ngt-demo-title">REAL ESTATE</h4>
                             </a>
                         </div>
                     </div>
